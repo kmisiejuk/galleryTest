@@ -1,0 +1,60 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+
+.gallery-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	width: 70%;
+}
+
+.image {
+	display: none;
+	margin: 1rem;
+	width: 800px;
+	border-radius: 5px;
+    box-shadow: 0 0 5px #848181;
+}
+.active {
+	display: flex;
+}
+
+.arrow-btn {
+	padding: 5em 0.5em;
+	border: none;
+	border-radius: 10px;
+	font-size: 1.5rem;
+	color: #333;
+	background-color: #dfdddd;
+	transition: color 0.3s, background-color 0.3s;
+}
+
+.arrow-btn:hover {
+	color: #dfdddd;
+	background-color: #848181;
+}
+
+.dots-row {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.dot {
+	padding: 5px;
+	color: #848181;
+}
+.dot-active {
+	color: #333;
+}
